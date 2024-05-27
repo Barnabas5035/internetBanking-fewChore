@@ -1,0 +1,70 @@
+.sidebar {
+  grid-area: sidebar;
+  background-color: rgba(253, 253, 253, 1);
+
+  left: 40px;
+  top: 40px;
+  gap: 40px;
+  /* Shadow default 2 */
+  /* box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05); */
+}
+
+.sidebar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 0px 30px;
+  margin-bottom: 35px;
+}
+.sidebar-brand {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 700;
+  left: 0%;
+  right: 75.15%;
+  top: -0.12%;
+}
+h2 {
+  color: rgba(31, 97, 62, 1);
+}
+.sidebar-list {
+  height: 732px;
+  left: 40px;
+  top: 40px;
+  gap: 40px;
+  padding: 0;
+  list-style-type: none;
+}
+.sidebar-list-item {
+  padding: 20px;
+  font-size: 18px;
+}
+.sidebar-list-item > a {
+  text-decoration: none;
+  color: rgba(31, 97, 62, 1);
+}
+.sidebar-list-item:hover {
+  background-color: rgb(158, 233, 193);
+  cursor: pointer;
+}
+.icon {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.Login-button {
+  width: 172px;
+  height: 48px;
+  top: 896px;
+  left: 40px;
+  border-radius: 12px;
+  padding: 12px 40px 12px 40px;
+  background-color: rgba(202, 215, 208, 1);
+  gap: 10px;
+  border-style: none;
+}
+.Login-button > a {
+  text-decoration: none;
+  color: rgba(31, 97, 62, 1);
+}

@@ -1,0 +1,117 @@
+.main-container {
+  grid-area: main;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+form {
+  border-radius: 16px;
+  padding: 16px;
+  width: 957px;
+  height: 57px;
+  margin: 0 auto;
+  background-color: rgba(215, 215, 216, 0.2);
+}
+select {
+  width: 957px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.main-card {
+  display: flex;
+  width: 950px;
+  height: 56px;
+  margin-top: 15px;
+  gap: 40px;
+}
+.col-1 {
+  display: flex;
+  width: 399px;
+  height: 56px;
+  gap: 4px;
+}
+.card-1 {
+  display: flex;
+  width: 399px;
+  height: 56px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(159, 186, 172, 1);
+
+  padding: 10px, 12px;
+}
+.col-2 {
+  display: flex;
+  width: 399px;
+  height: 56px;
+  gap: 16px;
+}
+.inner-card-1 {
+  display: flex;
+  align-items: center;
+}
+.inner-card-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inner-card-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  width: 163px;
+  height: 56px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 10px, 12px;
+  align-items: center;
+  justify-content: space-between;
+  border-color: rgba(159, 186, 172, 1);
+  border-style: solid;
+}
+h5 {
+  width: 310px;
+  height: 20px;
+  margin: 12px;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 20px;
+  initial-letter: -4px;
+  color: gray;
+}
+h3 {
+  width: 68px;
+  height: 20px;
+  margin: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  initial-letter: -4px;
+  color: gray;
+}
+.card-icon {
+  width: 18px;
+  height: 20px;
+  margin-top: 2px;
+  margin-left: 3px;
+  color: rgba(185, 185, 186, 1);
+}
+.search-button {
+  width: 195px;
+  height: 56px;
+  border-radius: 8px;
+  border-style: none;
+  padding: 13px, 146px, 13px, 146px;
+  gap: 10px;
+  background-color: rgba(0, 155, 84, 1);
+  align-items: center;
+  font-family: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+}
