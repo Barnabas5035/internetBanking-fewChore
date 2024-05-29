@@ -8,17 +8,14 @@ import { FiLogOut } from 'react-icons/fi'
 import { GoHistory } from 'react-icons/go'
 import { MdAccountBalanceWallet } from 'react-icons/md'
 
-import FewChore from '../../../Logo/FewChore.jpeg'
+import FewChore from '../../../Logo/Frame 56384.svg'
 const SideBar = () => {
   return (
     <aside className='sidebar'>
       <div className='sidebar-title'>
         <div className='sidebar-brand'>
-          <img
-            src={FewChore}
-            style={{ width: '150px', height: '65px' }}
-            alt='logo'
-          />
+          <img src={FewChore} alt='logo' />
+          <span></span>
         </div>
       </div>
       <ul className='sidebar-list'>
